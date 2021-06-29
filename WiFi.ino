@@ -50,7 +50,7 @@ const char* line_notify_ca= \
 
 void send(String message){
   const char* host = "notify-api.line.me";
-  const char* token = "bjaqf6LuNUhNT6BfecZrvmwWvaqnNJDTKUSIVxbBJlU";
+  const char* token = "Your LINE notify token";
   WiFiClientSecure client;
   // client.setCACert(line_notify_ca);//line notifyサイトのルート証明書をセットする
   client.setInsecure();
