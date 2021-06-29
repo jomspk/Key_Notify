@@ -4,8 +4,8 @@
 #include <WiFiClientSecure.h>
 #include <HTTPClient.h>
 
-const char* ssid = "UBIC-3D-G";
-const char* password = "UbiC$mar29-";
+const char* ssid = "Your WiFi ssid";
+const char* password = "Your WiFi password";
 
 const char* line_notify_ca= \
 "-----BEGIN CERTIFICATE-----/n" \
